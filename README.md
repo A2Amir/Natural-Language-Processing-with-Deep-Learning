@@ -9,10 +9,10 @@ The difficulties of NLP consist of all components of natural language, such as
 * phonology:
 This  is  the  study  of  how  speech  sounds  function  and  are  organised  in  a  particular  natural language.phonetics analyses the physical production of speech, independent of language
 
-* morphology
+* morphology:
 The  smallest  meaningful  unit  in  the  grammar  of  a  language  is  called  a morpheme.This level then performs morphological decomposition of words into roots and affixes to infer their internal structure.
 
-* syntax
+* syntax:
 This  level  infers  the  grammatical  structure  of  the  sentence,  that  is  the  structural  dependencies among the constituent words. It includes the tagging of the words with Part-of-Speech (POS) categories,for  example noun,verb and preposition.
 The word-POS tag sequences grouped with constituent parsing into phrases such as noun phrases (headed by a noun),verb phrases(headed by averb) and prepositional phrases (headed by a preposition).
 
@@ -31,6 +31,7 @@ This  is  the  study  of  meaning  of  linguistic  expressions.    More  narrowl
          Michael is a boy.  He likes the girl.  She is pretty.
          
          two coreference chains are formed:{Michael,a boy,He} 
+         
 * pragmatics
 This is the study of meaning in context over and above that which can be captured by the text, for example the intent, plan and/or goal of the speaker, the status of the parties involved and other world knowledge.
 
@@ -38,4 +39,4 @@ This is the study of meaning in context over and above that which can be capture
 * Lexicology
 Lexical analysis determines the underlying meaning or sense of individual words, typically bylookup in a dictionary called a lexicon.
 
-All of these components must be taken into account in order to gain complete understanding of amessage
+### As you can see all of these components must be taken into account in order to gain complete understanding of amessage
