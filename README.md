@@ -32,6 +32,7 @@ This  is  the  study  of  meaning  of  linguistic  expressions.    More  narrowl
          
          two coreference chains are formed:{Michael,a boy,He} 
 * pragmatics
+This is the study of meaning in context over and above that which can be captured by the text, for example the intent, plan and/or goal of the speaker, the status of the parties involved and other world knowledge.
 
 
 * Lexicology
