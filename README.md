@@ -7,7 +7,7 @@ The difficulties of NLP consist of all components of natural language, such as
 
 
 * Phonology:
-This  is  the  study  of  how  speech  sounds  function  and  are  organised  in  a  particular  natural language.phonetics analyses the physical production of speech, independent of language
+This  is  the  study  of  how  speech  sounds  function  and  are  organised  in  a  particular  natural language.phonetics analyses the physical production of speech, independent of language.
 
 * Morphology:
 The  smallest  meaningful  unit  in  the  grammar  of  a  language  is  called  a morpheme.This level then performs morphological decomposition of words into roots and affixes to infer their internal structure.
@@ -39,4 +39,4 @@ This is the study of meaning in context over and above that which can be capture
 * Lexicology:
 Lexical analysis determines the underlying meaning or sense of individual words, typically bylookup in a dictionary called a lexicon.
 
-##### As you can see all of these components must be taken into account in order to gain complete understanding of amessage
+#### As you can see all of these components must be taken into account in order to gain complete understanding of amessage.
