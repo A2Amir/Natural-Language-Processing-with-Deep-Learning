@@ -16,6 +16,10 @@ The  smallest  meaningful  unit  in  the  grammar  of  a  language  is  called  
 This  level  infers  the  grammatical  structure  of  the  sentence,  that  is  the  structural  dependencies among the constituent words. It includes the tagging of the words with Part-of-Speech (POS) categories,for  example noun,verb and preposition.  
 
 
+The  word-POS  tag  sequences   grouped  with constituent parsing into phrases such as noun phrases(headed by a noun),verb phrases(headed by averb) and prepositional phrases(headed by a preposition).
+
+
+
 * semantics 
 
 * pragmatics
