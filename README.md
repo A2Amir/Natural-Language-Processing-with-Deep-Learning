@@ -39,7 +39,7 @@ This is the study of meaning in context over and above that which can be capture
 * Lexicology:
 Lexical analysis determines the underlying meaning or sense of individual words, typically bylookup in a dictionary called a lexicon.
 
-#### As you can see all of these components must be taken into account in order to gain complete understanding of amessage.
+#### As you can see all of these components(domain knowledge, discourse knowledge,word knowledge) must be taken into account in order to gain complete understanding of a message.
 
 
 
