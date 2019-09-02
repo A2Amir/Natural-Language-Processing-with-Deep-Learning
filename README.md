@@ -17,12 +17,12 @@ This  level  infers  the  grammatical  structure  of  the  sentence,  that  is  
 
 <p align="center">
 <img src="./img/1.JPG" alt=" syntax" />
-<p align="center">
- The word-POS  tag  sequences   grouped  with constituent parsing into phrases such as noun phrases(headed by a noun),verb phrases(headed by averb) and prepositional phrases(headed by a preposition).
+<p align="center"> The word-POS tag sequences grouped with constituent parsing into phrases such as noun phrases (headed by a noun),verb phrases(headed by averb) and prepositional phrases (headed by a preposition).
 
 
 
-* semantics 
+* semantics
+This  is  the  study  of  meaning  of  linguistic  expressions.    More  narrowly  defined, it  is  the  study  of  word  sense  on  the  sentence  level,  not  yet  considering  discourse  and  pragmaticfactors  (explanations  to  follow) .At  this  level,  the  meaning  of  the remaining ambiguous words from the lexical stage are resolved by considering the interactions among the individual word senses in the sentence which called word-sense disambiguation. 
 
 * pragmatics
 
