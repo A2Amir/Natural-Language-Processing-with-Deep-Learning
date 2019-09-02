@@ -18,8 +18,7 @@ This  level  infers  the  grammatical  structure  of  the  sentence,  that  is  
 <p align="center">
 <img src="./img/1.JPG" alt=" syntax" />
 <p align="center">
-  
-The  word-POS  tag  sequences   grouped  with constituent parsing into phrases such as noun phrases(headed by a noun),verb phrases(headed by averb) and prepositional phrases(headed by a preposition).
+ The word-POS  tag  sequences   grouped  with constituent parsing into phrases such as noun phrases(headed by a noun),verb phrases(headed by averb) and prepositional phrases(headed by a preposition).
 
 
 
