@@ -1,7 +1,7 @@
 # Natural-Language-Processing-with-Deep-Learning
 
 <p style='text-align: justify;'> Your Text NLP deals with the use of human languages by a computer. [GBC16, p. 461] It has many different applications, which all refer to humans’ unstructured natural language. For example, its application areas are machine translation, speech recognition,dialog systems, named entity recognition, information retrieval and text classification.Thus, the domain of NLP encompasses all interactions between a computer and a human,by the use of written or spoken natural language.
-</p> 
+
 The difficulties of NLP consist of all components of natural language, such as 
 
 
@@ -40,3 +40,4 @@ This is the study of meaning in context over and above that which can be capture
 Lexical analysis determines the underlying meaning or sense of individual words, typically bylookup in a dictionary called a lexicon.
 
 #### As you can see all of these components must be taken into account in order to gain complete understanding of amessage.
+</p> 
