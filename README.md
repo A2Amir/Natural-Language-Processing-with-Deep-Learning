@@ -4,7 +4,7 @@ NLP deals with the use of human languages by a computer. [GBC16, p. 461] It has 
 
 The difficulties of NLP consist of all components of natural language, such as 
 
-* phonetics
+
 
 * phonology:
 This  is  the  study  of  how  speech  sounds  function  and  are  organised  in  a  particular  natural language.phonetics analyses the physical production of speech, independent of language
@@ -13,12 +13,13 @@ This  is  the  study  of  how  speech  sounds  function  and  are  organised  in
 The  smallest  meaningful  unit  in  the  grammar  of  a  language  is  called  a morpheme.This level then performs morphological decomposition of words into roots and affixes to infer their internal structure.
 
 * syntax
-This  level  infers  the  grammatical  structure  of  the  sentence,  that  is  the  structural  dependencies among the constituent words. It includes the tagging of the words with Part-of-Speech (POS) categories,for  example noun,verb and preposition.  
+This  level  infers  the  grammatical  structure  of  the  sentence,  that  is  the  structural  dependencies among the constituent words. It includes the tagging of the words with Part-of-Speech (POS) categories,for  example noun,verb and preposition.
+The word-POS tag sequences grouped with constituent parsing into phrases such as noun phrases (headed by a noun),verb phrases(headed by averb) and prepositional phrases (headed by a preposition).
+
 
 <p align="center">
 <img src="./img/1.JPG" alt=" syntax" />
-<p align="center"> The word-POS tag sequences grouped with constituent parsing into phrases such as noun phrases (headed by a noun),verb phrases(headed by averb) and prepositional phrases (headed by a preposition).
-
+<p align="center"> 
 
 
 * semantics
