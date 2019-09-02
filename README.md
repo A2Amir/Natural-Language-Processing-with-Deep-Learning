@@ -40,4 +40,7 @@ This is the study of meaning in context over and above that which can be capture
 Lexical analysis determines the underlying meaning or sense of individual words, typically bylookup in a dictionary called a lexicon.
 
 #### As you can see all of these components must be taken into account in order to gain complete understanding of amessage.
+
+
+
 </p> 
