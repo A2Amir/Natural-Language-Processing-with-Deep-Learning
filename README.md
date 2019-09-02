@@ -25,6 +25,12 @@ The word-POS tag sequences grouped with constituent parsing into phrases such as
 * semantics
 This  is  the  study  of  meaning  of  linguistic  expressions.    More  narrowly  defined, it  is  the  study  of  word  sense  on  the  sentence  level,  not  yet  considering  discourse  and  pragmaticfactors  (explanations  to  follow) .At  this  level,  the  meaning  of  the remaining ambiguous words from the lexical stage are resolved by considering the interactions among the individual word senses in the sentence which called word-sense disambiguation. 
 
+* Discourse
+ This  level  of  analysis functions on the whole document or discourse, connecting meaning (for example POS, number agreement,gender, et cetera) across sentences. Coreference resolutionis a technique that automatically tracks all the mentions of a particular discourse entity in a discourse and stores them in an indexed coreference chain(like below).
+ 
+         Michael is a boy.  He likes the girl.  She is pretty.
+         
+         two coreference chains are formed:{Michael,a boy,He} 
 * pragmatics
 
 
