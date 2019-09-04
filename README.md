@@ -129,10 +129,8 @@ Example implementation of One-hot encoding is shown below:
  
  * It can be done at both word level and character level.
  
- * The shape of a one-hot encoded vectorization of a list of M documen, where we only consider the first K words of each sentence is (M,K,N)
- 
- 
-The vectors obtained through one-hot encoding are binary, sparse (mostly made of zeros) and very high-dimensional (same dimensionality as the number of words in the vocabulary) which make this approach inefficient when the number of words in our vocabulary to much is.
+ * The shape of a one-hot encoded vectorization of a list of M documen, where we only consider the first K words of each sentence is (M,K,N).
+ The vectors obtained through one-hot encoding are binary, sparse (mostly made of zeros) and very high-dimensional (same dimensionality as the number of words in the vocabulary) which make this approach inefficient when the number of words in our vocabulary to much is.
  
  
  
