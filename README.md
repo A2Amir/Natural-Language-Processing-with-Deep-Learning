@@ -41,6 +41,11 @@ Lexical analysis determines the underlying meaning or sense of individual words,
 
 #### As you can see all of these components(domain knowledge, discourse knowledge,word knowledge) must be taken into account in order to gain complete understanding of a message.
 
+Feature selection and preprocessing are significant tasks in NLP, this task does have tremendous impact on the success of text analysis. This is mostly caused by the unstructured and arbitrary nature of text data.  Furthermore, machines need structure and numerical data. A couple of approaches for this transformation task,e.g. word embeddings or the vector space model, exist. This section’s scope lies on the theoretical foundation of different preprocessing and feature selection techniques.
+
+
+
+
 
  dadw
 </p> 
