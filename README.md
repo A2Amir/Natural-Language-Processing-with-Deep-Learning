@@ -75,7 +75,7 @@ Vectorization way:
 
 * N-gram: overlapping groups of multiple consecutive words or charachters and extracting n-gram is a form of feature engineering and deep learning does away with this kind of girid,brittle approach.
  <p align="right">
- <img src="./img/4.JPG" alt=" N-gram" />
+ <img src="./img/4.JPG"  width="674" alt=" N-gram" />
 <p align="right"> 
 
 * Bag of Word: you are dealing with a set of words rather than a list or sequence(In simple terms, it’s a collection of words to represent a sentence with word count and mostly disregarding the order in which they appear). it tends to be used in shallow language processing model rather than in deep learning.
