@@ -60,7 +60,7 @@ Deep Learning for natural language porocessning is pattern recognition applied t
  
  [question answering example](https://books.google.com/talktobooks/)
  
-#### Preprocessing of NLP:
+#### Test Preprocessing in NLP:
 Feature selection and preprocessing are significant tasks in Deep Learning also in NLP, this task does have tremendous impact on the success of text analysis. This is mostly caused by the unstructured and arbitrary nature of text data.  Furthermore, machines need structure and numerical data. A couple of approaches for this transformation task,e.g. word embeddings or the vector space model, exist. This section’s scope lies on the theoretical foundation of different preprocessing and feature selection techniques.
 
 
@@ -96,6 +96,13 @@ A very important approach to reduce the huge raw input space in NLP is stop word
  <p align="right">
  <img src="./img/6.JPG" alt="  Stop Word Removal " />
 <p align="right"> 
+#### Stemming
+ 
+Besides stop word elimination, stemming is a useful technique to map words to their word stems and further reduce the input dimension. This helps to extract the real meaning of a text and makes the unstructured data better accessible for a machine.The porter stemming algorithm is a state-of-the-art approach and strips sufixes from words to retain the word stem. It performs well in English, there are some drawbacks for other languages.
+ <p align="right">
+ <img src="./img/7.JPG" alt="  Stop Word Removal " />
+<p align="right"> 
+
 
 
 </p> 
