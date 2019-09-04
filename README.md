@@ -112,4 +112,24 @@ is the process of mapping every word in a text to their dictionary type or inten
 <img src="./img/8.JPG" alt="  Lemmatization" />
 <p align="right"> 
 
+#### There are two ways that can transform a token into a vector
+
+
+<p align="right">
+<img src="./img/50.JPG" alt="  Lemmatization" />
+<p align="right"> 
+
+1. One-hot Encoding:
+
+A one hot encoding is a representation of categorical variables as binary vectors. Each integer value is represented as a binary vector that is all zero values except the index of the integer, which is marked with a 1.
+Example implementation of One-hot encoding is shown below:
+
+<p align="right">
+<img src="./img/9.JPG" alt="One-hot Encoding" />
+<p align="right"> 
+ 
+ The vectors obtained through one-hot encoding are binary, sparse (mostly made of zeros) and very high-dimensional (same dimensionality as the number of words in the vocabulary) which make this approach inefficient when the number of words in our vocabulary to much is.
+ 
+
+
 </p> 
