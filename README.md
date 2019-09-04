@@ -41,7 +41,27 @@ Lexical analysis determines the underlying meaning or sense of individual words,
 
 #### As you can see all of these components(domain knowledge, discourse knowledge,word knowledge) must be taken into account in order to gain complete understanding of a message.
 
-Feature selection and preprocessing are significant tasks in NLP, this task does have tremendous impact on the success of text analysis. This is mostly caused by the unstructured and arbitrary nature of text data.  Furthermore, machines need structure and numerical data. A couple of approaches for this transformation task,e.g. word embeddings or the vector space model, exist. This section’s scope lies on the theoretical foundation of different preprocessing and feature selection techniques.
+Deep Learning for natural language porocessning is pattern recognition applied to words, sentences and paragraphs in much the same way that computer vision is pattern recognition applied to pixels. 
+
+#### Applications of NLP:
+
+* Document classification such as identifying the topic of an article ot the author of a book.
+* Sequence-to-sequence learning such as machine translation 
+* Sentiment analysis
+* Image Captioning
+<p align="right">
+<img src="./img/2.JPG" alt=" Image Captioning" />
+<p align="right"> 
+ 
+* Visual question answering
+ <p align="right">
+<img src="./img/3.JPG" alt=" Visual question answering" />
+<p align="right"> 
+ 
+ 
+Feature selection and preprocessing are significant tasks in Deep Learning also in NLP, this task does have tremendous impact on the success of text analysis. This is mostly caused by the unstructured and arbitrary nature of text data.  Furthermore, machines need structure and numerical data. A couple of approaches for this transformation task,e.g. word embeddings or the vector space model, exist. This section’s scope lies on the theoretical foundation of different preprocessing and feature selection techniques.
+
+Text:sequences of charachters or sequences of words(most common)
 
 
 
