@@ -141,7 +141,8 @@ As an important point, word embedding is able to model the similarity between wo
 <img src="./img/10.JPG" alt="word embedding" />
 <p align="right">
  
- ** Differencies between Word Embeddding and One-hot Encoding **
+ **Differencies between Word Embeddding and One-hot Encoding**
+ 
 <p align="center">
 <img src="./img/11.JPG" alt="Differencies between Word Embeddding and One-hot Encoding" />
 <p align="center">
