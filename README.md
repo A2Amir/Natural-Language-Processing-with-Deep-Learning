@@ -112,4 +112,10 @@ is the process of mapping every word in a text to their dictionary type or inten
 <img src="./img/8.JPG" alt="  Lemmatization" />
 <p align="right"> 
 
+#### there are two ways that can transform a token into a vector
+
+
+<p align="right">
+<img src="./img/50.JPG" alt="  Lemmatization" />
+<p align="right"> 
 </p> 
