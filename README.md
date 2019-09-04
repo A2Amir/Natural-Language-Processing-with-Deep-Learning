@@ -99,8 +99,9 @@ A very important approach to reduce the huge raw input space in NLP is stop word
 #### Stemming
  
 Besides stop word elimination, stemming is a useful technique to map words to their word stems and further reduce the input dimension. This helps to extract the real meaning of a text and makes the unstructured data better accessible for a machine.The porter stemming algorithm is a state-of-the-art approach and strips sufixes from words to retain the word stem. It performs well in English, there are some drawbacks for other languages.
+
  <p align="right">
- <img src="./img/7.JPG" alt="  Stop Word Removal " />
+ <img src="./img/7.JPG" alt="  Stemming" />
 <p align="right"> 
 
 
