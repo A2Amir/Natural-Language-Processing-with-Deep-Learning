@@ -91,7 +91,7 @@ Breaking text into tokens.
 <p align="right"> 
  
 * ways to associate a vector with a token:
-1. One-hot encoding
-2. Token embedding (such as word embeding)
+ 1. One-hot encoding
+ 2. Token embedding (such as word embeding)
 
 </p> 
