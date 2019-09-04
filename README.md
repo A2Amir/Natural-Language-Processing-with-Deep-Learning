@@ -50,7 +50,7 @@ Deep Learning for natural language porocessning is pattern recognition applied t
 * Sentiment analysis
 * Image Captioning
 <p align="right">
-<img src="./img/2.JPG" width="150"  height="150" alt=" Image Captioning" />
+<img src="./img/2.JPG"  alt=" Image Captioning" />
 <p align="right"> 
  
 * Visual question answering
@@ -87,7 +87,7 @@ Different units suchas words,charachters, or n-gram.
 Breaking text into tokens.
 
  <p align="right">
- <img src="./img/5.JPG" alt=" Tokenization" />
+ <img src="./img/5.JPG" width="350"  height="350" alt=" Tokenization" />
 <p align="right"> 
  
 * ways to associate a vector with a token:
