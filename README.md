@@ -60,7 +60,7 @@ Deep Learning for natural language porocessning is pattern recognition applied t
  
  [question answering example](https://books.google.com/talktobooks/)
  
-#### Test Preprocessing in NLP:
+#### Text Preprocessing in NLP:
 Feature selection and preprocessing are significant tasks in Deep Learning also in NLP, this task does have tremendous impact on the success of text analysis. This is mostly caused by the unstructured and arbitrary nature of text data.  Furthermore, machines need structure and numerical data. A couple of approaches for this transformation task,e.g. word embeddings or the vector space model, exist. This section’s scope lies on the theoretical foundation of different preprocessing and feature selection techniques.
 
 
@@ -133,10 +133,26 @@ Example implementation of One-hot encoding is shown below:[Code](https://github.
  * The shape of a one-hot encoded vectorization of a list of M documen, where we only consider the first K words of each sentence is (M,K,N).
  
  * The vectors obtained through one-hot encoding are binary, sparse (mostly made of zeros) and very high-dimensional (same dimensionality as the number of words in the vocabulary) which make this approach inefficient when the number of words in our vocabulary to much is.
- 
- 
- 
- 
 
+**2. word embeddings**
+ Another popular and powerful way to associate a vector with a word is the use of dense "word vectors", also called "word embeddings". word embeddings are low-dimensional floating point vectors (i.e. "dense" vectors, as opposed to sparse vectors in one-hot encoding). Unlike word vectors obtained via one-hot encoding, word embeddings are learned from data. It is common to see word embeddings that are 256-dimensional, 512-dimensional, or 1024-dimensional when dealing with very large vocabularies.
+As an important point, word embedding is able to model the similarity between words.
+<p align="right">
+<img src="./img/10.JPG" alt="word embedding" />
+<p align="right">
+ 
+ 
+ **Differencies between Word Embeddding and One-hot Encoding **
+<p align="center">
+<img src="./img/11.JPG" alt="Differencies between Word Embeddding and One-hot Encoding" />
+<p align="center">
+ 
+ 
+ word embeddings pack more information into far fewer dimensions. 
+There are two ways to obtain word embeddings:
 
+* Learn word embeddings jointly with the main task you care about (e.g. document classification or sentiment prediction). 
+In this setup, you would start with random word vectors, then learn your word vectors in the same way that you learn the weights of a neural network.
+* Load into your model word embeddings that were pre-computed using a different machine learning task than the one you are trying to solve. 
+These are called "pre-trained word embeddings". 
 </p> 
