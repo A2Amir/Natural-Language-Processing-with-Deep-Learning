@@ -50,7 +50,7 @@ Deep Learning for natural language porocessning is pattern recognition applied t
 * Sentiment analysis
 * Image Captioning
 <p align="right">
-<img src="./img/2.JPG" alt=" Image Captioning" />
+<img src="./img/2.JPG" width="150"  height="150" alt=" Image Captioning" />
 <p align="right"> 
  
 * Visual question answering
