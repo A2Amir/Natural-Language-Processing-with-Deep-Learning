@@ -85,11 +85,8 @@ Vectorization way:
 ##### Tokenization: Breaking text into tokens.
 
  <p align="right">
- <img src="./img/5.JPG" width="350"  height="350" alt=" Tokenization" />
+ <img src="./img/5.JPG" width="450"  height="450" alt=" Tokenization" />
 <p align="right"> 
  
-* ways to associate a vector with a token:
- 1. One-hot encoding
- 2. Token embedding (such as word embeding)
 
 </p> 
