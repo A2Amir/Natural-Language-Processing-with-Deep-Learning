@@ -58,6 +58,8 @@ Deep Learning for natural language porocessning is pattern recognition applied t
 <img src="./img/3.JPG" alt=" Visual question answering" />
 <p align="right"> 
  
+ [question answering] (https://books.google.com/talktobooks/)
+ 
  
 Feature selection and preprocessing are significant tasks in Deep Learning also in NLP, this task does have tremendous impact on the success of text analysis. This is mostly caused by the unstructured and arbitrary nature of text data.  Furthermore, machines need structure and numerical data. A couple of approaches for this transformation task,e.g. word embeddings or the vector space model, exist. This section’s scope lies on the theoretical foundation of different preprocessing and feature selection techniques.
 
