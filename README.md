@@ -119,8 +119,9 @@ is the process of mapping every word in a text to their dictionary type or inten
 <img src="./img/50.JPG" alt="  Lemmatization" />
 <p align="right"> 
 
-1. One-hot Encoding:A one hot encoding is a representation of categorical variables as binary vectors. Each integer value is represented as a binary vector that is all zero values except the index of the integer, which is marked with a 1.
-Example implementation of One-hot encoding is shown below:
+**1. One-hot Encoding:**
+A one hot encoding is a representation of categorical variables as binary vectors. Each integer value is represented as a binary vector that is all zero values except the index of the integer, which is marked with a 1. 
+Example implementation of One-hot encoding is shown below:[Code](https://github.com/A2Amir/Natural-Language-Processing-with-Deep-Learning/blob/master/One%20Hot%20Encoding%20(NLP).ipynb)
 <p align="right">
 <img src="./img/9.JPG" alt="One-hot Encoding" />
 <p align="right">
