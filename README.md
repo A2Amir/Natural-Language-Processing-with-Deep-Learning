@@ -104,7 +104,12 @@ Besides stop word elimination, stemming is a useful technique to map words to th
  <p align="right">
  <img src="./img/7.JPG" alt="  Stemming" />
 <p align="right"> 
-
-
+ 
+#### Lemmatization
+is the process of mapping every word in a text to their dictionary type or intended originating structure. Verbs are transformed to their infinite form, a noun is reconstructed to it’s singular representation and adverbs or adjectives anticipate their positive format. The method is based on morphological analysis and often usesa dictionary.
+ 
+<p align="right">
+<img src="./img/8.JPG" alt="  Lemmatization" />
+<p align="right"> 
 
 </p> 
