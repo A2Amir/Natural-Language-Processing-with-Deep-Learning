@@ -87,6 +87,6 @@ Vectorization way:
  <p align="right">
  <img src="./img/5.JPG" alt=" Tokenization" />
 <p align="right"> 
- 
+ a
 
 </p> 
