@@ -70,7 +70,7 @@ Vectorization way:
 
 3. Extract n-grams of words or characters and transfor, each n-gram into a vector.
 
-
+N-gram: overlapping groups of multiple consecutive word or charachters.
 
 
 </p> 
