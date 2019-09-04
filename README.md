@@ -81,10 +81,8 @@ Vectorization way:
 * Bag of Word: you are dealing with a set of words rather than a list or sequence(In simple terms, it’s a collection of words to represent a sentence with word count and mostly disregarding the order in which they appear). it tends to be used in shallow language processing model rather than in deep learning.
  [Bag of Word Algorithm](https://www.freecodecamp.org/news/an-introduction-to-bag-of-words-and-how-to-code-it-in-python-for-nlp-282e87a9da04/)
 
-##### Token: 
-Different units suchas words,charachters, or n-gram.
-##### Tokenization:
-Breaking text into tokens.
+##### Token: Different units suchas words,charachters, or n-gram.
+##### Tokenization: Breaking text into tokens.
 
  <p align="right">
  <img src="./img/5.JPG" width="350"  height="350" alt=" Tokenization" />
