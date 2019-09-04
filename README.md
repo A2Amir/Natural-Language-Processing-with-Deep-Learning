@@ -58,14 +58,24 @@ Deep Learning for natural language porocessning is pattern recognition applied t
 <img src="./img/3.JPG" alt=" Visual question answering" />
 <p align="right"> 
  
+ [question answering] (https://books.google.com/talktobooks/)
  
+#### Preprocessing of NLP:
 Feature selection and preprocessing are significant tasks in Deep Learning also in NLP, this task does have tremendous impact on the success of text analysis. This is mostly caused by the unstructured and arbitrary nature of text data.  Furthermore, machines need structure and numerical data. A couple of approaches for this transformation task,e.g. word embeddings or the vector space model, exist. This section’s scope lies on the theoretical foundation of different preprocessing and feature selection techniques.
 
-Text:sequences of charachters or sequences of words(most common)
+Deep learning model don't take as input raw text, they only work with numeric tensors thefor we need to tranform texts into numeric tensors which called Vectorization. Notice: Text can be defined as sequences of charachters or sequences of words(most common).
+
+Vectorization way:
+1. Segement text into word and transform each word into a vector
+
+2. Segement text into characters and transform characters  into a vector
+
+3. Extract n-grams of words or characters and transfor, each n-gram into a vector.
+
+N-gram: overlapping groups of multiple consecutive word or charachters.
+ <p align="right">
+<img src="./img/4.JPG" alt=" N-gram" />
+<p align="right"> 
 
 
-
-
-
- dadw
 </p> 
