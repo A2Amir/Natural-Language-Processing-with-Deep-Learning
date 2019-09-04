@@ -58,7 +58,7 @@ Deep Learning for natural language porocessning is pattern recognition applied t
 <img src="./img/3.JPG" alt=" Visual question answering" />
 <p align="right"> 
  
- [question answering] (https://books.google.com/talktobooks/)
+ [question answering example](https://books.google.com/talktobooks/)
  
 #### Preprocessing of NLP:
 Feature selection and preprocessing are significant tasks in Deep Learning also in NLP, this task does have tremendous impact on the success of text analysis. This is mostly caused by the unstructured and arbitrary nature of text data.  Furthermore, machines need structure and numerical data. A couple of approaches for this transformation task,e.g. word embeddings or the vector space model, exist. This section’s scope lies on the theoretical foundation of different preprocessing and feature selection techniques.
@@ -66,16 +66,32 @@ Feature selection and preprocessing are significant tasks in Deep Learning also 
 Deep learning model don't take as input raw text, they only work with numeric tensors thefor we need to tranform texts into numeric tensors which called Vectorization. Notice: Text can be defined as sequences of charachters or sequences of words(most common).
 
 Vectorization way:
+
 1. Segement text into word and transform each word into a vector
 
 2. Segement text into characters and transform characters  into a vector
 
-3. Extract n-grams of words or characters and transfor, each n-gram into a vector.
+3. Extract n-grams of words or characters and transfor each n-gram into a vector.
 
-N-gram: overlapping groups of multiple consecutive word or charachters.
+* N-gram: overlapping groups of multiple consecutive words or charachters and extracting n-gram is a form of feature engineering and deep learning does away with this kind of girid,brittle approach.
  <p align="right">
-<img src="./img/4.JPG" alt=" N-gram" />
+ <img src="./img/4.JPG" alt=" N-gram" />
 <p align="right"> 
 
+* Bag of Word: you are dealing with a set of words rather than a list or sequence(In simple terms, it’s a collection of words to represent a sentence with word count and mostly disregarding the order in which they appear). it tends to be used in shallow language processing model rather than in deep learning.
+ [Bag of Word Algorithm](https://www.freecodecamp.org/news/an-introduction-to-bag-of-words-and-how-to-code-it-in-python-for-nlp-282e87a9da04/)
+
+##### Token: 
+Different units suchas words,charachters, or n-gram.
+##### Tokenization:
+Breaking text into tokens.
+
+ <p align="right">
+ <img src="./img/5.JPG" alt=" Tokenization" />
+<p align="right"> 
+ 
+* ways to associate a vector with a token:
+1. One-hot encoding
+2. Token embedding (such as word embeding)
 
 </p> 
