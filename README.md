@@ -65,7 +65,7 @@ Feature selection and preprocessing are significant tasks in Deep Learning also 
 
 Deep learning model don't take as input raw text, they only work with numeric tensors thefor we need to tranform texts into numeric tensors which called Vectorization. Notice: Text can be defined as sequences of charachters or sequences of words(most common).
 
-Vectorization way:
+## Vectorization way:
 
 1. Segement text into word and transform each word into a vector
 
@@ -85,6 +85,15 @@ Vectorization way:
  <p align="right">
  <img src="./img/5.JPG" alt=" Tokenization" />
 <p align="right"> 
- a
+
+
+
+### Stop Word Removal 
+A very important approach to reduce the huge raw input space in NLP is stop word removal(swr). Most languages have specific words, which do appear more often than others or donot include much information about the content of the text, e.g. auxiliary verbs or articles. Due to this, it often makes sense to exclude this so-called stop words in further analysis(after tokenization). In English such words could be "the", "a" or "an" and for German typical stopwords are the articles "der", "die" and "das". The elimination could be done by checkingthe words against a standardized stop word list.
+
+ <p align="right">
+ <img src="./img/6.JPG" alt="  Stop Word Removal " />
+<p align="right"> 
+
 
 </p> 
