@@ -136,7 +136,7 @@ Example implementation of One-hot encoding is shown below:[Code](https://github.
 
 **2. word embeddings:**
  Another popular and powerful way to associate a vector with a token (word) is the use of dense "word vectors", also called "word embeddings". word embeddings are low-dimensional floating point vectors (i.e. "dense" vectors, as opposed to sparse vectors in one-hot encoding). Unlike word vectors obtained via one-hot encoding, word embeddings are learned from data. It is common to see word embeddings that are 256-dimensional, 512-dimensional, or 1024-dimensional when dealing with very large vocabularies.
-As an important point, word embedding is able to model the similarity between words [Model Similarity]() .
+As an important point, word embedding is able to model the similarity between words ([Model Similarity]()).
 <p align="right">
 <img src="./img/10.JPG" alt="word embedding" />
 <p align="right">
