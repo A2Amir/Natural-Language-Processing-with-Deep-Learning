@@ -136,6 +136,7 @@ Example implementation of One-hot encoding is shown below:[Code](https://github.
 
 **2. Distributed representations (word embeddings):**
  Another popular and powerful way to associate a vector with a token (word) is the use of dense "word vectors", also called "distributed representations". The distributed representations we build will always be vectors of real numbers. The models are often called vector space models (VSMs).If a neural network is used to train the representations, then they might be called neural representations. The term word embedding is also used for distributed representations, including distributional ones. This term is a reminder that vector representations are meaningful only when embedded in and compared with others in a unified space (usually a matrix) of representations of the same type.
+ 
  In other words, word embeddings are low-dimensional floating point vectors (i.e. "dense" vectors, as opposed to sparse vectors in one-hot encoding). Unlike word vectors obtained via one-hot encoding, word embeddings are learned from data. It is common to see word embeddings that are 256-dimensional, 512-dimensional, or 1024-dimensional when dealing with very large vocabularies.
 As an important point, word embedding is able to model the similarity between words ([Model Similarity]()).
 <p align="right">
