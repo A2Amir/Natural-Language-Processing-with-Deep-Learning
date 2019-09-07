@@ -171,5 +171,10 @@ such a noisy, unstructured embedding space.
 
 Word embeddings are meant to map human language into a geometric space. For instance, in a reasonable embedding space, we would expect synonyms to be embedded into similar word vectors (words meaning very different things would be embedded to points far away from each other, while related words would be closer and even beyond mere distance, we may want specific __directions__ in the 
 embedding space to be meaningful.As an important point, word embedding is able to model the similarity between words ([Model Similarity](https://github.com/A2Amir/Word_analogy-using-embeddings/blob/master/README.md)).)
+* A question that occurs is, Is there some "ideal" word embedding space that would perfectly map human language and could be used for any natural language processing task? Possibly, but in any case, we have yet to compute anything of the sort. Also, there isn't such a thing as "human language", there are 
+many different languages and they are not isomorphic as a language is the reflection of a specific culture and a specific context.
+*  what makes a good word embedding space depends heavily on your task: the perfect word embedding space for an English-language movie review sentiment analysis model may look very different from the perfect embedding space for an English-language legal document classification model, because the importance of certain semantic relationships varies from task to task.
+
+
 
 </p> 
