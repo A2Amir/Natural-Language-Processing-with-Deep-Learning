@@ -146,7 +146,8 @@ As an important point, word embedding is able to model the similarity between wo
 <img src="./img/10.JPG" alt="word embedding" />
 <p align="right">
  
- The idea of a Dense low dimensional embedding space for words, computed in an unsupervised way, was initially explored in the early 2000s (Yoshua Bengio et al. Neural Probablistic Language Models, springer) but it only started to take off in research and industry application after the release of the Word2Vec algorithm, developed by Tomas Mikolov at Google in 2013 
+ The idea of a Dense low dimensional embedding space for words, computed in an unsupervised way, was initially explored in the early 2000s (Yoshua Bengio et al. Neural Probablistic Language Models, springer) but it only started to take off in research and industry application after the release of the Word2Vec algorithm, developed by Tomas Mikolov at Google in 2013. 
+ 
  **Differencies between Word Embeddding and One-hot Encoding**
  
 <p align="center">
