@@ -169,4 +169,7 @@ In this setup, you would start with random word vectors, then learn your word ve
 The simplest way to associate a dense vector to a word would be to pick the vector at random. The problem with this approach is that the resulting embedding space would have no structure: for instance, the words "accurate" and "exact" may end up with completely different embeddings, even though they are interchangeable in most sentences. It would be very difficult for a deep neural network to make sense of 
 such a noisy, unstructured embedding space. 
 
+Word embeddings are meant to map human language into a geometric space. For instance, in a reasonable embedding space, we would expect synonyms to be embedded into similar word vectors (words meaning very different things would be embedded to points far away from each other, while related words would be closer and even beyond mere distance, we may want specific __directions__ in the 
+embedding space to be meaningful.)
+
 </p> 
