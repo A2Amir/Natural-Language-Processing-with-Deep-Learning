@@ -175,6 +175,6 @@ embedding space to be meaningful.As an important point, word embedding is able t
 many different languages and they are not isomorphic as a language is the reflection of a specific culture and a specific context.
 *  what makes a good word embedding space depends heavily on your task: the perfect word embedding space for an English-language movie review sentiment analysis model may look very different from the perfect embedding space for an English-language legal document classification model, because the importance of certain semantic relationships varies from task to task.
 
-
+It is thus reasonable to __learn__ a new embedding space with every new task. Thankfully, backpropagation makes this really easy, and Keras makes it even easier. It's just about learning the weights of a layer: the `Embedding` layer.
 
 </p> 
