@@ -158,13 +158,13 @@ Example implementation of One-hot encoding is shown below:[Code](https://github.
 
 There are two ways to obtain word embeddings:
 
-* Learn word embeddings jointly with the main task you care about (e.g. document classification or sentiment prediction). 
+1. Learn word embeddings jointly with the main task you care about (e.g. document classification or sentiment prediction). 
 In this setup, you would start with random word vectors, then learn your word vectors in the same way that you learn the weights of a neural network.
-* Load into your model word embeddings that were pre-computed using a different machine learning task than the one you are trying to solve. These are called "pre-trained word embeddings". 
+2. Load into your model word embeddings that were pre-computed using a different machine learning task than the one you are trying to solve. These are called "pre-trained word embeddings". 
 
 **When you have enough data avaliable you can use the embedding layer to train but when your data is not enough you can use the pretrained embedding layer.**
 
-## Learn word embeddings jointly with the main task you care about
+## 1. Learn word embeddings jointly with the main task you care about
 
 The simplest way to associate a dense vector to a word would be to pick the vector at random. The problem with this approach is that the resulting embedding space would have no structure: for instance, the words "accurate" and "exact" may end up with completely different embeddings, even though they are interchangeable in most sentences. It would be very difficult for a deep neural network to make sense of 
 such a noisy, unstructured embedding space. 
@@ -175,6 +175,6 @@ embedding space to be meaningful.As an important point, word embedding is able t
 many different languages and they are not isomorphic as a language is the reflection of a specific culture and a specific context.
 *  what makes a good word embedding space depends heavily on your task: the perfect word embedding space for an English-language movie review sentiment analysis model may look very different from the perfect embedding space for an English-language legal document classification model, because the importance of certain semantic relationships varies from task to task.
 
-It is thus reasonable to __learn__ a new embedding space with every new task. Thankfully, backpropagation makes this really easy, and Keras makes it even easier. It's just about learning the weights of a layer: the `Embedding` layer.
+It is thus reasonable to __learn__ a new embedding space with every new task, thankfully, backpropagation makes this really easy, and Keras makes it even easier. It's just about learning the weights of a layer: the `Embedding` layer.
 
 </p> 
