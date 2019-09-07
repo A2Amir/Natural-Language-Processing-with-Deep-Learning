@@ -162,5 +162,8 @@ There are two ways to obtain word embeddings:
 In this setup, you would start with random word vectors, then learn your word vectors in the same way that you learn the weights of a neural network.
 * Load into your model word embeddings that were pre-computed using a different machine learning task than the one you are trying to solve. These are called "pre-trained word embeddings". 
 
-## Learning word embeddings with the Embedding layer
+* When you have enough data avaliable you can use the embedding layer to train but when your data is not enough you can use the pretrained embedding layer.
+
+## Learn word embeddings jointly with the main task you care about
+
 </p> 
