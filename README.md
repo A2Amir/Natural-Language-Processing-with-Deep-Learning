@@ -177,4 +177,8 @@ many different languages and they are not isomorphic as a language is the reflec
 
 It is thus reasonable to __learn__ a new embedding space with every new task, thankfully, backpropagation makes this really easy, and Keras makes it even easier. It's just about learning the weights of a layer: the `Embedding` layer.
 
+
+## 2. Load into your model word embeddings that were pre-computed 
+
+There are various pre-computed databases of word embeddings that can download and start using in a Keras Embedding layer. Word2Vec is one of them. Another popular one is called "GloVe", developed by Stanford researchers in 2014. It stands for "Global Vectors for Word Representation", and it is an embedding technique based on factorizing a matrix of word co-occurrence statistics. Its developers have made available pre-computed embeddings for millions of English tokens, obtained from Wikipedia data or from Common Crawl data.
 </p> 
