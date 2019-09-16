@@ -202,8 +202,9 @@ A CNN works well for identifying simple patterns within your data which will the
 <p align="center"> 
  
 <p align="center">
+ 
 you can find all related codes [here](https://github.com/A2Amir/Natural-Language-Processing-with-Deep-Learning/blob/master/Using-word-embeddings(with%20Dense%20and%20RNN%20and%20LSTM%20layers).ipynb)
-</p> 
+
 <p align="center">  
  
 
