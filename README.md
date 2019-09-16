@@ -188,7 +188,7 @@ As you read a sentence, you don't process it in one go, instead you process it w
 Biological Intelligence processes information incrementally while maintaining an internal state of what it's processing, built from past information and constantly updated as new information comes in.
 
 <p align="center">
-<img src="./12.JPG" alt=" an internal state" />
+<img src="./img/12.JPG" alt=" an internal state" />
 <p align="center"> 
  
 ## 1D Convolutional Layers
@@ -197,5 +197,9 @@ A CNN works well for identifying simple patterns within your data which will the
 
 1D Convolutional Layer applies well to the analysis of time sequences of sensor data (such as gyroscope or accelerometer data). It also applies to the analysis of any kind of signal data over a fixed-length period (such as audio signals). Another application is NLP (although here LSTM networks are more promising since the proximity of words might not always be a good indicator for a trainable pattern).
 
+<p align="center">
+<img src="./img/17.JPG" alt=" 1D Convolutional Layers" />
+<p align="center"> 
+ 
 
 </p> 
