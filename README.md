@@ -177,4 +177,29 @@ many different languages and they are not isomorphic as a language is the reflec
 
 It is thus reasonable to __learn__ a new embedding space with every new task, thankfully, backpropagation makes this really easy, and Keras makes it even easier. It's just about learning the weights of a layer: the `Embedding` layer.
 
+
+## 2. Load into your model word embeddings that were pre-computed 
+
+There are various pre-computed databases of word embeddings that can download and start using in a Keras Embedding layer. Word2Vec is one of them. Another popular one is called "GloVe", developed by Stanford researchers in 2014. It stands for "Global Vectors for Word Representation", and it is an embedding technique based on factorizing a matrix of word co-occurrence statistics. Its developers have made available pre-computed embeddings for millions of English tokens, obtained from Wikipedia data or from Common Crawl data.
+
+
+## Understanding Recurrent Neural Networks and LSTMs (Long Short Term Memory)
+As you read a sentence, you don't process it in one go, instead you process it word by word, while keeping memories of what came befor.
+Biological Intelligence processes information incrementally while maintaining an internal state of what it's processing, built from past information and constantly updated as new information comes in.
+
+<p align="center">
+<img src="./img/12.JPG" alt=" an internal state" />
+<p align="center"> 
+ 
+## 1D Convolutional Layers
+
+A CNN works well for identifying simple patterns within your data which will then be used to form more complex patterns within higher layers. A 1D CNN is very effective when you expect to derive interesting features from shorter (fixed-length) segments of the overall data set and where the location of the feature within the segment is not of high relevance.
+
+1D Convolutional Layer applies well to the analysis of time sequences of sensor data (such as gyroscope or accelerometer data). It also applies to the analysis of any kind of signal data over a fixed-length period (such as audio signals). Another application is NLP (although here LSTM networks are more promising since the proximity of words might not always be a good indicator for a trainable pattern).
+
+<p align="center">
+<img src="./img/17.JPG" alt=" 1D Convolutional Layers" />
+<p align="center"> 
+ 
+
 </p> 
